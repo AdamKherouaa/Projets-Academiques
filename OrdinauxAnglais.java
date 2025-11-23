@@ -1,4 +1,3 @@
-package portfolio;
 public class OrdinauxAnglais {
     public static void main(String[] args) {
         printOrdinal(43);

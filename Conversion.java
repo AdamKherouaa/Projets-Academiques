@@ -1,4 +1,4 @@
-public class Exercice55 {
+public class Conversion {
     public static void main(String[] args) {
         System.out.println(string_to_int("a23 4-5"));}
     public static int string_to_int(String s){

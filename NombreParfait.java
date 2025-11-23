@@ -1,4 +1,4 @@
-package portfolio;
+
 public class NombreParfait{
     public static void main(String[] args) {
         divisor(60);
