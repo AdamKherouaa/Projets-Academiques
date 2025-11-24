@@ -23,18 +23,12 @@ public class NombreParfaitOrdinauxAnglais {
     public static String printOrdinal(int nb){
         String a = String.valueOf(nb);
         if (a.length()-1 == 0){
-            if (a.charAt(a.length()-1) == '1') {
-                return "st";
+            switch (a.charAt(a.length()-1)) {
+                case '1': return "st";
+                case '2' : return "nd";
+                case '3' : return "rd";
             
-            }
-            else if ( a.charAt(a.length()-1) == '2'){
-                return "nd";
-            }
-            else if ( a.charAt(a.length()-1) == '3'){
-                return "rd";
-            }
-            else{
-                return "th";
+                default: return "th";
             }
         }else{
         
